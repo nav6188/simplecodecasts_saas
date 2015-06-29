@@ -6,6 +6,6 @@ var main = function() {
         $('.counter').text(charsLeft);
     });
        
-}; 
+  };
 
 $(document).ready(main);

@@ -18,12 +18,23 @@
         <%= f.label :comments %>
         <%= f.text_area :comments, class: 'form-control' %>
           </div>
-            <div id = 'parent'>
-             <div class = 'counter'>140</div> 
-            <div class='submit'>        
+       
+       <div class="row">
+    <div class = "col-md-6">
+      <div class="pull-left">
+        <div class = "counter">140</div> 
+      </div>
+  </div>
+      <div class = "col-md-6">
+        <div class = "pull-right">
+            <div class="submit">        
               <%= f.submit 'Submit', class: 'btn btn-default' %>
                </div>
-            </div>
+             </div>
+        </div>
+</div>
+            
+            
         <% end %>
        </div>
   </div>
