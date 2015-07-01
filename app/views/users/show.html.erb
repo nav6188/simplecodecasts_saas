@@ -1,3 +1,4 @@
+<h2>My Profile</h2>
 <%= @user.profile.first_name + " " + @user.profile.last_name %><br/>
 <%= @user.profile.job_title %><br/>
 <% if current_user.plan_id == 2 %>
@@ -5,4 +6,3 @@
     <%= @user.profile.contact_email %><br/>
 <% end %>
 <%= @user.profile.description %><br/>
-<%= 3+3 %>
